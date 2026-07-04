@@ -1,0 +1,52 @@
+2026-07-03 23:27:23 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:27:23 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': 0.005, 'stopPrice': '65000.0'}
+2026-07-03 23:27:23 [ERROR] TradingBot.Orders: Binance API Error: Timestamp for this request is outside of the recvWindow. (Status Code: 400, Error Code: -1021)
+2026-07-03 23:31:33 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:31:33 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': 0.005, 'stopPrice': '65000.0'}
+2026-07-03 23:31:33 [ERROR] TradingBot.Orders: Binance API Error: Timestamp for this request is outside of the recvWindow. (Status Code: 400, Error Code: -1021)
+2026-07-03 23:34:18 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:34:18 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005}
+2026-07-03 23:34:18 [ERROR] TradingBot.Orders: Binance API Error: Timestamp for this request is outside of the recvWindow. (Status Code: 400, Error Code: -1021)
+2026-07-03 23:34:35 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:34:35 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.005, 'price': '68000.0', 'timeInForce': 'GTC'}
+2026-07-03 23:34:36 [ERROR] TradingBot.Orders: Binance API Error: Timestamp for this request is outside of the recvWindow. (Status Code: 400, Error Code: -1021)
+2026-07-03 23:36:49 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-03 23:36:49 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97717ms
+2026-07-03 23:36:49 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:36:49 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'recvWindow': 60000}
+2026-07-03 23:36:50 [INFO] TradingBot.Orders: Order Executed Successfully. OrderID: 18772485882
+2026-07-03 23:46:02 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-03 23:46:02 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97867ms
+2026-07-03 23:46:02 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:46:02 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.005, 'recvWindow': 60000}
+2026-07-03 23:46:02 [ERROR] TradingBot.Orders: Binance API Error: Order's notional must be no smaller than 20 (unless you choose reduce only). (Status Code: 400, Error Code: -4164)
+2026-07-03 23:49:32 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-03 23:49:32 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97783ms
+2026-07-03 23:49:32 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:49:32 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.01, 'recvWindow': 60000}
+2026-07-03 23:49:32 [ERROR] TradingBot.Orders: Binance API Error: Order's notional must be no smaller than 20 (unless you choose reduce only). (Status Code: 400, Error Code: -4164)
+2026-07-03 23:50:50 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-03 23:50:50 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97861ms
+2026-07-03 23:50:50 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-03 23:50:50 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.02, 'recvWindow': 60000}
+2026-07-03 23:50:50 [INFO] TradingBot.Orders: Order Executed Successfully. OrderID: 11732759311
+2026-07-04 00:34:41 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-04 00:34:42 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97789ms
+2026-07-04 00:34:42 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-04 00:34:42 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'STOP_LIMIT', 'quantity': 0.02, 'recvWindow': 60000, 'price': '2010.0', 'stopPrice': '2000.0', 'timeInForce': 'GTC'}
+2026-07-04 00:34:42 [ERROR] TradingBot.Orders: Binance API Error: Invalid orderType. (Status Code: 400, Error Code: -1116)
+2026-07-04 00:38:11 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-04 00:38:12 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97842ms
+2026-07-04 00:38:12 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-04 00:38:12 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': 0.02, 'recvWindow': 60000, 'price': '2010.0', 'stopPrice': '2000.0', 'timeInForce': 'GTC'}
+2026-07-04 00:38:12 [ERROR] TradingBot.Orders: Binance API Error: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (Status Code: 400, Error Code: -4120)
+2026-07-04 00:44:30 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-04 00:44:31 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97748ms
+2026-07-04 00:44:31 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-04 00:44:31 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'TAKE_PROFIT_MARKET', 'quantity': 0.02, 'recvWindow': 60000, 'stopPrice': '3000.0'}
+2026-07-04 00:44:31 [ERROR] TradingBot.Orders: Binance API Error: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (Status Code: 400, Error Code: -4120)
+2026-07-04 00:54:28 [INFO] TradingBot.Client: Synchronizing local timeline parameters with Binance servers...
+2026-07-04 00:54:28 [INFO] TradingBot.Client: Clock Sync Complete. Server offset detected & applied: 97760ms
+2026-07-04 00:54:29 [INFO] TradingBot.Client: Successfully connected to Binance Futures Testnet API.
+2026-07-04 00:54:29 [INFO] TradingBot.Orders: Sending Order Request Summary: {'symbol': 'ETHUSDT', 'side': 'BUY', 'quantity': 0.02, 'recvWindow': 60000, 'type': 'LIMIT', 'price': '1800.0', 'timeInForce': 'FOK'}
+2026-07-04 00:54:29 [INFO] TradingBot.Orders: Order Executed Successfully. OrderID: 11738055256
